@@ -34,8 +34,6 @@ end
 # "hello" * 3 == "hellohellohello"
 def print_spicy_foods(spicy_foods)
   # your code here
-  spicy_foods.each do |food|
-    
 end
 
 # given an array of spicy foods and a string representing a cuisine, **return a single hash**  

@@ -35,7 +35,7 @@ end
 def print_spicy_foods(spicy_foods)
   # your code here
   spicy_foods.each do |food|
-    
+    puts #{food[:name]} (#{food[:cuisine]}) | Heat Level
 end
 
 # given an array of spicy foods and a string representing a cuisine, **return a single hash**  
