@@ -44,8 +44,7 @@ end
 def get_spicy_food_by_cuisine(spicy_foods, cuisine)
   # your code here
   spicy_foods find do |food|
-    food[:cuisne] == cuisine
-  end
+    food[:cuisne]
 end
 
 # Given an array of spicy foods, **return an array of hashes** 
